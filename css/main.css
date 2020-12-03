@@ -95,6 +95,14 @@ footer {
     flex-flow: row wrap;
 }
 
+.content-wrapper {
+  margin: 50px 0;
+}
+
+h1, h2, h3, p {
+  margin-left: 20px;
+}
+
 /* Header Styles  */
 
 
@@ -103,9 +111,24 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+.header-divider {
+  width: 100%;
+}
+
+header {
+  padding: 15px 0;
 }
 
 header nav {
+  width: 60%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -113,6 +136,8 @@ header nav {
 }
 
 header nav ul {
+  width: 56%;
+  padding: 15px 0;
   display: flex;
   justify-content: space-around;
 }
@@ -129,19 +154,38 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer p {
+  margin: 0;
+}
+
 /*-------------- Mobile Styles- Homepage ---------------- */
 /* Hero styles */
+
+.content-wrapper {
+  margin: 50px 0;
+}
 
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
 }
 
 
 /* Form styles */
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+.form-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 /* Features styles */
 
@@ -158,6 +202,7 @@ aside {
   flex-flow: row wrap;
 }
 
+
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -165,6 +210,13 @@ aside {
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 60%;
+}
+
+.features p {
+  margin: 0;
+}
 
 /* Reviews styles */
 
@@ -174,11 +226,18 @@ aside {
   flex-flow: row wrap;
 }
 
+.reviews h3 {
+  width: 50%;
+}
 
 
 /* ==========================================================================
    About page styles
    ========================================================================== */
+.content-wrapper {
+  margin: 50px 0;
+}
+
 .mission {
   display: flex;
   justify-content: center;
@@ -193,9 +252,16 @@ aside {
   flex-flow: row wrap;
 }
 
+.contact-section .contact-wrapper div {
+  width: 67%;
+}
+
 /* ==========================================================================
    FAQ page styles
    ========================================================================== */
+.content-wrapper {
+  margin: 50px 0;
+}
 
 .faq {
   display: flex;
