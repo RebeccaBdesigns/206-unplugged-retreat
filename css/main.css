@@ -380,7 +380,7 @@ input[type=button] {
 .map figure {
   position: relative;
   height: 0;
-  padding-bottom: 125%;
+  padding-bottom: 75%;
   overflow: hidden;
 }
 
@@ -553,7 +553,7 @@ header .content-wrapper {
 }
 
 header figure {
-width: 30%;
+  width: 30%;
 }
 
 header nav {
@@ -657,7 +657,9 @@ About page
   width: 45%;
 }
 
-
+.map figure {
+  padding-bottom: 46%;
+}
 
 .contact-section .content-wrapper h2 {
   width: 80%;
@@ -759,6 +761,10 @@ About page
   display: flex;
   flex-flow: column;
   max-height: 445px;
+}
+
+.map figure {
+  padding-bottom: 46%;
 }
 
 /* ==================================================================
