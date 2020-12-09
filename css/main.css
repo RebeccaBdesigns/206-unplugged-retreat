@@ -236,6 +236,11 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .social-icons i {
+  font-size: 1.13em;
+  color: #527158;
+}
+
 footer .copyright {
   margin: 20px 0;
   font-size: .88em;
@@ -310,7 +315,6 @@ input[type=button] {
   background: url('../img/background.jpg');
   background-size: cover;
   background-position: center;
-  min-height: 1450px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -318,7 +322,6 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 60px;
-  text-align: left;
 }
 
 .features article {
@@ -335,6 +338,11 @@ input[type=button] {
 .features p {
   margin: 0;
   text-align: center;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 /* Reviews styles */
@@ -586,8 +594,8 @@ aside .content-wrapper .form {
 
 /* Features */
 
-.features {
-  max-height: 800px;
+.features h2 {
+  margin-bottom: 20px;
 }
 
 .features article {
@@ -599,7 +607,12 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-description {
-  width: 50%;
+  width: 62%;
+}
+
+.features i {
+  font-size: 4.5em;
+  margin-bottom: 30px;
 }
 /* Reviews */
 
@@ -624,16 +637,25 @@ aside .content-wrapper .form {
 footer .content-wrapper {
   width: 65%;
   margin: 100px 0;
-}
-
-.footer-content {
-  width: 65%;
+  display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 footer .contact {
   margin-bottom: 0;
+}
+
+footer  h4 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+footer .social-icons i {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
 }
 
 footer .copyright {
@@ -718,6 +740,10 @@ aside .content-wrapper .form {
   width: 33%;
 }
 
+.form-description p {
+  font-size: 1.125em;
+}
+
 /* Features */
 
 .features h2 {
@@ -731,6 +757,11 @@ aside .content-wrapper .form {
 
 .features-item-description {
   padding-top: 22px;
+}
+/* Reviews */
+
+.reviews h2 {
+  padding-bottom: 50px;
 }
 
 .reviews article div {
