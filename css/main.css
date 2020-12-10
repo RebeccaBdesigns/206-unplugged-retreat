@@ -330,6 +330,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding-bottom: 40px;
 }
 
 .features h1 {
@@ -352,6 +353,7 @@ input[type=button] {
 .features p {
   margin: 0;
   text-align: center;
+  line-height: 18px;
 }
 
 .features i {
@@ -386,6 +388,14 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.reviews p {
+  line-height: 18px;
+}
+
+.reviews .content-wrapper {
+  margin-bottom: 46px;
 }
 
 
@@ -662,6 +672,10 @@ aside .content-wrapper .form {
   margin-bottom: 20px;
 }
 
+.feature p {
+  line-height: 18px;
+}
+
 .features article {
   display: flex;
   justify-content: center;
@@ -692,7 +706,7 @@ aside .content-wrapper .form {
 .reviews article {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-content: flex-start;
   width: 100%
 }
 
@@ -705,6 +719,10 @@ aside .content-wrapper .form {
   max-width: 50%;
   height: auto;
   align-content: left;
+}
+
+.reviews p {
+  line-height: 18px
 }
 
 /* Footer*/
@@ -876,6 +894,10 @@ aside .content-wrapper .form {
   margin-top: 100px;
 }
 
+.features p {
+  line-height: 24px
+}
+
 .features article {
   flex-basis: 33%;
   margin-bottom: 100px;
@@ -889,6 +911,10 @@ aside .content-wrapper .form {
 .reviews h2 {
   margin-top: 90px;
   padding-bottom: 50px;
+}
+
+.reviews p {
+  line-height: 24px
 }
 
 .reviews article div {
